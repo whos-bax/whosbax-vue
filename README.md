@@ -3,9 +3,9 @@
 - 🌱 I’m currently learning javascript, react, python etc.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me 
-    * instagram : instagram.com/whosbax
+    * instagram : www.instagram.com/whosbax
     * gmail : bbak9604@gmail.com
-    * soundcloud : soundcloud.com/whosbax
+    * soundcloud : www.soundcloud.com/whosbax
 
 <!---
 whos-bax/whos-bax is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
