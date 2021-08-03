@@ -1,13 +1,17 @@
 import React from 'react'
-import { Container, Image } from 'react-bootstrap'
+import { Container, Image, Row } from 'react-bootstrap'
 
 function Home() {
-    
+    const imgurl = '/images/ableton.jfif'
     return (
-        <Container fluid>
-            <Image src='/images/ableton.jfif' alt="ableton"
-                style={{ margin: 'auto', width: '100%', opacity: '0.8', transition: '2s' }} />
-
+        <Container className='homecontainer' fluid>
+            <Row className='d-block'>
+                <p>
+                    ALWAYS NEW AND NEXT
+                </p>
+                <Image src={imgurl} alt="ableton" className='abletonHome' />
+            </Row>
+            
         </Container>
     )
 }

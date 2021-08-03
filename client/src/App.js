@@ -1,7 +1,7 @@
-import './App.css';
+import './App.scss';
+import Footer from './Components/Footer';
 import MainNav from './Components/MainNav';
 import Home from './Pages/Home';
-import SassComponent from './SassComponent';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <MainNav />
       <Home />
-      <SassComponent />
+      <Footer />
     </>
   );
 }

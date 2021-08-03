@@ -8,49 +8,80 @@ $indigo: #5c7cfa;
 $violet: #7950f2;
 // mixin 만들기 (재사용되는 스타일 블록을 함수처럼 사용 할 수 있음)
 @mixin square($size) {
-  $calculated: 32px * $size;
-  width: $calculated;
-  height: $calculated;
+    $calculated: 32px * $size;
+    width: $calculated;
+    height: $calculated;
 }
 
 .SassComponent {
-  display: flex;
-  .box {
-    background: red; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
-    cursor: pointer;
-    transition: all 0.3s ease-in;
-    &.red {
-      // .red 클래스가 .box 와 함께 사용 됐을 때
-      background: $red;
-      @include square(1);
+    display: flex;
+    .box {
+        background: red; // 일반 CSS 에선 .SassComponent .box 와 마찬가지
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        &.red {
+            // .red 클래스가 .box 와 함께 사용 됐을 때
+            background: $red;
+            @include square(1);
+        }
+        &.orange {
+            background: $orange;
+            @include square(2);
+        }
+        &.yellow {
+            background: $yellow;
+            @include square(3);
+        }
+        &.green {
+            background: $green;
+            @include square(4);
+        }
+        &.blue {
+            background: $blue;
+            @include square(5);
+        }
+        &.indigo {
+            background: $indigo;
+            @include square(6);
+        }
+        &.violet {
+            background: $violet;
+            @include square(7);
+        }
+        &:hover {
+            // .box 에 마우스 올렸을 때
+            background: black;
+        }
     }
-    &.orange {
-      background: $orange;
-      @include square(2);
-    }
-    &.yellow {
-      background: $yellow;
-      @include square(3);
-    }
-    &.green {
-      background: $green;
-      @include square(4);
-    }
-    &.blue {
-      background: $blue;
-      @include square(5);
-    }
-    &.indigo {
-      background: $indigo;
-      @include square(6);
-    }
-    &.violet {
-      background: $violet;
-      @include square(7);
-    }
+}
+
+.abletonHome {
+    display: flex;
+    margin: auto;
+    opacity: 0.8;
+    transition: all 2s;
     &:hover {
-      // .box 에 마우스 올렸을 때
-      background: black;
+        opacity: 0.5;
     }
-  }
+}
+
+.typing-txt h1 {
+    overflow: hidden;
+    // border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    display: flex !important;
+    background-color: black;
+    color: blanchedalmond;
+}
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
