@@ -55,6 +55,8 @@ body {
 
 #home {
   visibility: hidden;
+  opacity: 0;
+  transition: ease 2s;
 }
 
 .home > span {
