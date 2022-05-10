@@ -5,7 +5,7 @@
 - 📫 How to reach me 
     * instagram : www.instagram.com/whothatsme_/
     * gmail : bbak9604@gmail.com
-    * profile about music : linktr.ee/whosbax/
+    * profile about music : https://linktr.ee/whosbax
 
 <!---
 whos-bax/whos-bax is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
