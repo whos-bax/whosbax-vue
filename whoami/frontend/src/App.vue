@@ -1,5 +1,12 @@
 <template>
+<div>
   <Home />
+  <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary">Left</button>
+  <button type="button" class="btn btn-success">Middle</button>
+  <button type="button" class="btn btn-warning">Right</button>
+</div>
+</div>
 </template>
 
 <script>
@@ -15,11 +22,14 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  @font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
+}
+
 </style>
