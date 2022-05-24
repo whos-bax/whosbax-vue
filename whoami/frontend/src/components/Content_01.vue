@@ -1,17 +1,5 @@
 <template>
   <div class="container">
-    <div class="mainNav">
-
-      <ul id="mainNavFont">
-        <li>
-          <a href="#home">홈</a>
-        </li>
-        <li><a href="#introduce">소개</a></li>
-        <li>
-          <a href="#home">홈</a>
-        </li>
-      </ul>
-    </div>
 
     <div class="home" id="home">
       <span>꿈이 많은 어른 아이</span>
@@ -35,13 +23,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
-  methods: {
-    
-  },
+  name: "Content_01",
 };
 
 
