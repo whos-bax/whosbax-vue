@@ -18,19 +18,14 @@ export default {
 };
 </script>
 
-<style lang='scss'>
-#app {
-}
+<style lang="scss">
+@import "@/scss/main.scss";
+
 .container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  // background-image: url("../workplace.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  // @include center;
+  background-color: $test;
 }
-@import "@/assets/scss/variables.scss";
-// @import "@/assets/scss/mainNav.scss";
-/* @import "./assets/scss/mainFooter.scss"; */
+
+// @import "@/scss/mainNav.scss";
+/* @import "./scss/mainFooter.scss"; */
 </style>

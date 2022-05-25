@@ -1,5 +1,6 @@
 <template>
   <div class="mainNav">
+    
     <ul id="mainNavFont">
       <li>
         <a href="#home">홈</a>
