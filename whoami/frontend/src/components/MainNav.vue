@@ -20,8 +20,5 @@ export default {
 </script>
 
 <style lang='scss'>
-.mainNav {
-  background-color: $TEST_BG;
-  @include center;
-}
+
 </style>

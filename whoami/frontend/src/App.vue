@@ -21,9 +21,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/main.scss";
-#test {
-  background-color: $TEST;
+
+#app {
+  background-color: #555;
 }
 
 </style>
