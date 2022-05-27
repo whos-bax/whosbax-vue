@@ -19,5 +19,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang='scss'>
+.mainNav {
+  background-color: $TEST_BG;
+  @include center;
+}
 </style>

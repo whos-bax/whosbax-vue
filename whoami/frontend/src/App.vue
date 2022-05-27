@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="container" id="test">
+    <p>test</p>
     <MainNav />
     <Content_01 />
   </div>
@@ -16,16 +17,13 @@ export default {
     MainNav,
   },
 };
+
 </script>
 
 <style lang="scss">
-@import "@/scss/main.scss";
-
-.container {
-  // @include center;
-  background-color: $test;
+@import "@/assets/scss/main.scss";
+#test {
+  background-color: $TEST;
 }
 
-// @import "@/scss/mainNav.scss";
-/* @import "./scss/mainFooter.scss"; */
 </style>
