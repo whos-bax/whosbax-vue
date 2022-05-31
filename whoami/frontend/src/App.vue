@@ -1,29 +1,33 @@
 <template>
-  <div class="container" id="test">
-    <p>test</p>
+<div class="container-fluid" id="content">
     <MainNav />
-    <Content_01 />
-  </div>
+    <Content01 />
+    <Content01 />
+    
+    <MainFooter />
+</div>
 </template>
 
 <script>
-import Content_01 from "@/components/Content_01.vue";
 import MainNav from "@/components/MainNav";
+import Content01 from "@/components/Content01.vue";
+import MainFooter from "@/components/MainFooter.vue";
 
 export default {
   name: "App",
   components: {
-    Content_01,
     MainNav,
+    Content01,
+    MainFooter,
   },
 };
-
 </script>
 
 <style lang="scss">
-
 #app {
-  background-color: #555;
-}
-
+  height: 100%;
+  #content {
+    height: 100%;
+  }
+} 
 </style>

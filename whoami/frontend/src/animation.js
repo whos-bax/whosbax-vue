@@ -4,7 +4,7 @@ window.onload = function () {
   const footerStyle = document.querySelector(".mainFooter");
 
   const navFont = document.querySelector("#mainNavFont");
-  const footerFont = document.querySelector("#mainFooterFont");
+  // const footerFont = document.querySelector("#mainFooterFont");
 
   setTimeout(() => {
     homeStyle.style.visibility = "visible";
@@ -20,5 +20,6 @@ window.onload = function () {
   setTimeout(() => {
     navFont.style.visibility = "visible";
     navFont.style.opacity = "1";
-  }, 1500);
+  }, 2000);
 };
+

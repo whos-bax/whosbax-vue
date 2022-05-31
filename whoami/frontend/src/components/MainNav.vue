@@ -1,24 +1,49 @@
 <template>
-  <div class="mainNav">
-    
-    <ul id="mainNavFont">
-      <li>
-        <a href="#home">홈</a>
-      </li>
-      <li><a href="#introduce">소개</a></li>
-      <li>
-        <a href="#home">홈</a>
-      </li>
-    </ul>
-  </div>
+  <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">홈</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </template>
 
 <script>
+import anima from "../animation.js";
 export default {
-  name: "MainNav",
+  anima,
 };
 </script>
 
-<style lang='scss'>
-
+<style lang='scss' scoped>
+// @import "@/assets/scss/mainNav.scss";
+#navbarNav {
+  justify-content: end;
+  ul {
+  justify-content: end;
+    
+  }
+}
 </style>

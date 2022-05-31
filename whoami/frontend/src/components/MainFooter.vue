@@ -1,11 +1,5 @@
 <template>
-  <div class="container">
-
-    <div class="home" id="home">
-      <span>꿈이 많은 어른 아이</span>
-    </div>
-    <div></div>
-
+  <footer class="container">
     <div class="mainFooter">
       <ul id="mainFooterFont">
         <li>
@@ -18,17 +12,15 @@
         </li>
       </ul>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
 export default {
-  name: "Content_01",
+  name: "MainFooter",
 };
-
 
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 </style>
