@@ -1,6 +1,6 @@
 <template>
-  <div class="content">
-    <div class="home">
+  <div class="home">
+    <div class="container">
       <span>꿈이 많은 어른 아이</span>
     </div>
     <div></div>
@@ -9,17 +9,14 @@
 
 <script>
 export default {
-  name: 'ContentHome',
-}
+  name: "ContentHome",
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.content {
-  height: 100%;
-}
 .home {
-  background-image: url("@/assets/workplace.jpg");
+  background-image: url("@/assets/bongo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -1,7 +1,10 @@
 <template>
-  <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
-    <div class="container mainNav">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav
+    class="navbar navbar-light navbar-expand-lg bg-light fixed-top p-0 h-0"
+    id="mainNav"
+  >
+    <div class="container" id="mainNavFont">
+      <a class="navbar-brand">꿈이 많은 어른 아이</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,18 +36,20 @@
   </nav>
 </template>
 
-<script>
-import anima from "../animation.js";
-export default {
-  anima,
-};
-</script>
+<script src="@/assets/animation.js"></script>
 
 <style lang='scss' scoped>
 // @import "@/assets/scss/mainNav.scss";
+#mainNav {
+  opacity: 0;
+  transition: ease 1s;
+  #mainNavFont {
+    transition: ease 1s;
+    opacity: 0;
+  }
+}
 #navbarNav {
   justify-content: end;
-
   ul {
     justify-content: end;
   }
