@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
-    <div class="container-fluid">
+    <div class="container mainNav">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -16,13 +16,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">홈</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">소개</a>
+            <a class="nav-link" href="#aboutme">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
           </li>
         </ul>
       </div>
@@ -41,9 +44,9 @@ export default {
 // @import "@/assets/scss/mainNav.scss";
 #navbarNav {
   justify-content: end;
+
   ul {
-  justify-content: end;
-    
+    justify-content: end;
   }
 }
 </style>

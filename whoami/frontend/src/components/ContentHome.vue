@@ -1,5 +1,5 @@
 <template>
-  <div class="content py-5">
+  <div class="content">
     <div class="home">
       <span>꿈이 많은 어른 아이</span>
     </div>
@@ -9,8 +9,8 @@
 
 <script>
 export default {
-  name: "Content_01",
-};
+  name: 'ContentHome',
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -20,6 +20,9 @@ export default {
 }
 .home {
   background-image: url("@/assets/workplace.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
 }
 </style>

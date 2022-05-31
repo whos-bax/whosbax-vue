@@ -1,8 +1,8 @@
 <template>
 <div class="container-fluid" id="content">
     <MainNav />
-    <Content01 />
-    <Content01 />
+    <ContentHome />
+    <ContentHome />
     
     <MainFooter />
 </div>
@@ -10,14 +10,14 @@
 
 <script>
 import MainNav from "@/components/MainNav";
-import Content01 from "@/components/Content01.vue";
+import ContentHome from "@/components/ContentHome.vue";
 import MainFooter from "@/components/MainFooter.vue";
 
 export default {
   name: "App",
   components: {
     MainNav,
-    Content01,
+    ContentHome,
     MainFooter,
   },
 };
@@ -28,6 +28,7 @@ export default {
   height: 100%;
   #content {
     height: 100%;
+    padding: 0;
   }
 } 
 </style>
