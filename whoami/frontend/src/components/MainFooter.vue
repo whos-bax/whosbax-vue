@@ -19,12 +19,8 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: "MainFooter",
-};
+<script></script>
 
-</script>
 
 <style scoped>
 </style>
