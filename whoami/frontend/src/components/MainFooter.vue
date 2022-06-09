@@ -1,5 +1,5 @@
 <template>
-  <footer class="container fixed-bottom">
+  <footer class="container fixed-bottom "> 
     <div class="mainFooter">
       <ul id="mainFooterFont">
         <li>
